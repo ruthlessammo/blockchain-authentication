@@ -5,7 +5,12 @@ const path = require('path');
 const config = require('./config');
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({
+  extended: true,
+  verify: function(req,res,buf) {
+    req.rawBody = buf.toString();
+  }
+}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
