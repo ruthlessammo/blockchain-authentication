@@ -1,8 +1,8 @@
 module.exports = {
   stampery: {
     client_secret: process.env.STAMPERY_SECRET,
-    username: 'xxxxxx@xxxxxx.com',
-    password: 'xxxxxxxxxx'
+    username: 'williamhilton@tuta.io',
+    password: process.env.STAMPER_LOGIN_PASSWORD
   },
 
   pubnub: {
