@@ -7,13 +7,13 @@ module.exports = {
 
   pubnub: {
     ssl: false,
-    publish_key: 'pub-c-xxxxx-xxx-xxxx-xxxx-xxxx',
-    subscribe_key: 'sub-c-xxxxxx-xxxx-xxx-xxxx-xxx',
+    publish_key: process.env.PUBNUB_PUBLISH_KEY,
+    subscribe_key: process.env.PUBNUB_SUBSCRIBE_KEY,
     registered_channel: 'registered_channel',
     confirmed_channel: 'confirmed_channel'
   },
 
-  url: 'http://xxxxxxxx.ngrok.io',
+  url: 'https://e3919176.ngrok.io',
 
   db: 'existence',
 
