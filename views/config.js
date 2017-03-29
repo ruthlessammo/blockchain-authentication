@@ -13,7 +13,7 @@ module.exports = {
     confirmed_channel: 'confirmed_channel'
   },
 
-  url: 'https://e3919176.ngrok.io',
+  url: 'https://b6957661.ngrok.io',
 
   db: 'existence',
 
