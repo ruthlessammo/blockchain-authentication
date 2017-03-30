@@ -1,8 +1,8 @@
 module.exports = {
-  stampery: {
-    client_secret: process.env.STAMPERY_SECRET,
+  tierion: {
+    client_secret: process.env.TIERION_CLIENT_SECRET,
     username: 'williamhilton@tuta.io',
-    password: process.env.STAMPER_LOGIN_PASSWORD
+    password: process.env.TIERION_LOGIN_PASSWORD
   },
 
   pubnub: {

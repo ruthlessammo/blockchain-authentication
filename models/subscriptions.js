@@ -6,7 +6,7 @@ const hashapi = require('hashapi-lib-node');
 
 const SUBSCRIPTION_TABLE = 'subscription';
 
-const URL = config.url + '/stampery';
+const URL = config.url + '/tierion';
 
 const createSubscription = function(callback) {
   hashClient.createBlockSubscription(URL, function(err, subscription){
