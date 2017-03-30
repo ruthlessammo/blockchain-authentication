@@ -23,11 +23,13 @@ app.listen(config.port, function() {
 });
 
 const subscription = require('./models/subscription');
+var receipt = require('./models/receipt');
 
 subscription.setup(function(hashClient) {
   const routes = require('./routes/app')(app, hashClient);
 
   app.listen(config.port, function() {
     console.log('Server up and listening on port %d', config.port);
+    receipt.setup(hashClient);
   });
 });
