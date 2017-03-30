@@ -1,7 +1,7 @@
 module.exports = {
   tierion: {
     client_secret: process.env.TIERION_CLIENT_SECRET,
-    username: 'williamhilton@tuta.io',
+    username: process.env.TIERION_ACCOUNT_EMAIL,
     password: process.env.TIERION_LOGIN_PASSWORD
   },
 
