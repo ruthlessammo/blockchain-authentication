@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const config = require('./config');
 
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true,
@@ -19,4 +20,14 @@ app.set('view engine', 'ejs');
 
 app.listen(config.port, function() {
   console.log('Server up and listening on port %d', config.port);
+});
+
+const subscription = require('./models/subscription');
+
+subscription.setup(function(hashClient) {
+  const routes = require('./routes/app')(app, hashClient);
+
+  app.listen(config.port, function() {
+    console.log('Server up and listening on port %d', config.port);
+  });
 });
