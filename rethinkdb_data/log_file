@@ -15,3 +15,134 @@
 2017-03-29T17:59:45.256372000 0.119173s notice: Listening on http addresses: 127.0.0.1, ::1
 2017-03-29T17:59:45.256375000 0.119176s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2017-03-29T17:59:45.256378000 0.119179s notice: Server ready, "Williams_MacBook_Pro_2_local_0y2" 26c9a83e-4d39-403e-bd05-9e307248f96e
+2017-03-30T13:36:39.966341000 0.040368s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-03-30T13:36:40.021545000 0.095570s notice: Running on Darwin 15.6.0 x86_64
+2017-03-30T13:36:40.021588000 0.095612s notice: Loading data from directory /Users/williamhilton/development/blockchain-authentication/rethinkdb_data
+2017-03-30T13:36:40.056729000 0.130754s info: Automatically using cache size of 100 MB
+2017-03-30T13:36:40.056739000 0.130763s warn: Cache size does not leave much memory for server and query overhead (available memory: 721 MB).
+2017-03-30T13:36:40.056746000 0.130770s warn: Cache size is very low and may impact performance.
+2017-03-30T13:36:40.058788000 0.132812s notice: Listening for intracluster connections on port 29015
+2017-03-30T13:36:40.062600000 0.136624s notice: Listening for client driver connections on port 28015
+2017-03-30T13:36:40.062978000 0.137002s notice: Listening for administrative HTTP connections on port 8080
+2017-03-30T13:36:40.062981000 0.137005s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-03-30T13:36:40.062986000 0.137010s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-03-30T13:36:40.062988000 0.137012s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-03-30T13:36:40.062993000 0.137017s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-30T13:36:40.062998000 0.137021s notice: Server ready, "Williams_MacBook_Pro_2_local_0y2" 26c9a83e-4d39-403e-bd05-9e307248f96e
+2017-03-30T13:40:06.692444000 206.761471s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: Starting a new Raft election for term 1.
+2017-03-30T13:40:06.694774000 206.763800s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: Added replica on this server.
+2017-03-30T13:40:06.706391000 206.775417s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: This server is Raft leader for term 1. Latest log index is 0.
+2017-03-30T13:40:07.356463000 207.425489s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Starting a new Raft election for term 1.
+2017-03-30T13:40:07.356626000 207.425652s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Added replica on this server.
+2017-03-30T13:40:07.364787000 207.433813s info: Table 769f4982-0733-437e-817a-647561fe5f1f: This server is Raft leader for term 1. Latest log index is 0.
+2017-03-30T13:40:07.862363000 207.931342s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Configuration is changing.
+2017-03-30T14:45:23.848674000 3960.845432s notice: Server got SIGINT from pid 838, uid 501; shutting down...
+2017-03-30T14:45:23.848859000 3960.845617s notice: Shutting down client connections...
+2017-03-30T14:45:23.849202000 3960.845961s notice: All client connections closed.
+2017-03-30T14:45:23.849209000 3960.845967s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-03-30T14:45:23.866131000 3960.862889s notice: Storage engine shut down.
+2017-03-30T14:45:35.920640000 0.368599s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-03-30T14:45:35.940325000 0.388282s notice: Running on Darwin 15.6.0 x86_64
+2017-03-30T14:45:35.940444000 0.388400s notice: Loading data from directory /Users/williamhilton/development/blockchain-authentication/rethinkdb_data
+2017-03-30T14:45:35.962516000 0.410472s info: Automatically using cache size of 100 MB
+2017-03-30T14:45:35.962526000 0.410481s warn: Cache size does not leave much memory for server and query overhead (available memory: 861 MB).
+2017-03-30T14:45:35.962531000 0.410487s warn: Cache size is very low and may impact performance.
+2017-03-30T14:45:35.963636000 0.411592s notice: Listening for intracluster connections on port 29015
+2017-03-30T14:45:35.989085000 0.437041s notice: Listening for client driver connections on port 28015
+2017-03-30T14:45:35.989211000 0.437166s notice: Listening for administrative HTTP connections on port 8080
+2017-03-30T14:45:35.989290000 0.437246s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-03-30T14:45:35.989292000 0.437248s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-03-30T14:45:35.989294000 0.437250s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-03-30T14:45:35.989296000 0.437251s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-30T14:45:35.989298000 0.437253s notice: Server ready, "Williams_MacBook_Pro_2_local_0y2" 26c9a83e-4d39-403e-bd05-9e307248f96e
+2017-03-30T14:45:37.500971000 1.948879s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: Starting a new Raft election for term 2.
+2017-03-30T14:45:37.514874000 1.962782s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: This server is Raft leader for term 2. Latest log index is 3.
+2017-03-30T14:45:37.743414000 2.191322s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Starting a new Raft election for term 2.
+2017-03-30T14:45:37.755956000 2.203864s info: Table 769f4982-0733-437e-817a-647561fe5f1f: This server is Raft leader for term 2. Latest log index is 4.
+2017-03-30T15:26:47.431327000 0.053978s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-03-30T15:26:47.443661000 0.066310s notice: Running on Darwin 15.6.0 x86_64
+2017-03-30T15:26:47.443708000 0.066355s notice: Loading data from directory /Users/williamhilton/development/blockchain-authentication/rethinkdb_data
+2017-03-30T15:26:47.479066000 0.101665s info: Automatically using cache size of 100 MB
+2017-03-30T15:26:47.479076000 0.101674s warn: Cache size does not leave much memory for server and query overhead (available memory: 756 MB).
+2017-03-30T15:26:47.479082000 0.101680s warn: Cache size is very low and may impact performance.
+2017-03-30T15:26:47.480453000 0.103051s notice: Listening for intracluster connections on port 29015
+2017-03-30T15:26:47.511326000 0.133924s notice: Listening for client driver connections on port 28015
+2017-03-30T15:26:47.511691000 0.134290s notice: Listening for administrative HTTP connections on port 8080
+2017-03-30T15:26:47.511695000 0.134294s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-03-30T15:26:47.511698000 0.134296s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-03-30T15:26:47.511701000 0.134299s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-03-30T15:26:47.511703000 0.134301s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-30T15:26:47.511722000 0.134320s notice: Server ready, "Williams_MacBook_Pro_2_local_0y2" 26c9a83e-4d39-403e-bd05-9e307248f96e
+2017-03-30T15:26:48.766537000 1.389136s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Starting a new Raft election for term 3.
+2017-03-30T15:26:48.787961000 1.410560s info: Table 769f4982-0733-437e-817a-647561fe5f1f: This server is Raft leader for term 3. Latest log index is 7.
+2017-03-30T15:26:49.149607000 1.772206s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: Starting a new Raft election for term 3.
+2017-03-30T15:26:49.160378000 1.782977s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: This server is Raft leader for term 3. Latest log index is 6.
+2017-03-30T15:27:45.018697000 57.639892s notice: Server got SIGINT from pid 35619, uid 501; shutting down...
+2017-03-30T15:27:45.018842000 57.640037s notice: Shutting down client connections...
+2017-03-30T15:27:45.019072000 57.640266s notice: All client connections closed.
+2017-03-30T15:27:45.019077000 57.640271s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-03-30T15:27:45.031265000 57.652460s notice: Storage engine shut down.
+2017-03-30T15:28:35.673293000 0.412567s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-03-30T15:28:35.687512000 0.426734s notice: Running on Darwin 15.6.0 x86_64
+2017-03-30T15:28:35.687569000 0.426790s notice: Loading data from directory /Users/williamhilton/development/blockchain-authentication/rethinkdb_data
+2017-03-30T15:28:35.714922000 0.454144s info: Automatically using cache size of 100 MB
+2017-03-30T15:28:35.714931000 0.454152s warn: Cache size does not leave much memory for server and query overhead (available memory: 741 MB).
+2017-03-30T15:28:35.714936000 0.454156s warn: Cache size is very low and may impact performance.
+2017-03-30T15:28:35.716887000 0.456108s notice: Listening for intracluster connections on port 29015
+2017-03-30T15:28:35.758357000 0.497578s notice: Listening for client driver connections on port 28015
+2017-03-30T15:28:35.758492000 0.497713s notice: Listening for administrative HTTP connections on port 8080
+2017-03-30T15:28:35.758598000 0.497819s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-03-30T15:28:35.758601000 0.497821s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-03-30T15:28:35.758603000 0.497824s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-03-30T15:28:35.758605000 0.497826s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-30T15:28:35.758607000 0.497828s notice: Server ready, "Williams_MacBook_Pro_2_local_0y2" 26c9a83e-4d39-403e-bd05-9e307248f96e
+2017-03-30T15:28:37.102164000 1.841385s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: Starting a new Raft election for term 4.
+2017-03-30T15:28:37.111388000 1.850609s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: This server is Raft leader for term 4. Latest log index is 9.
+2017-03-30T15:28:37.318551000 2.057772s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Starting a new Raft election for term 4.
+2017-03-30T15:28:37.335757000 2.074979s info: Table 769f4982-0733-437e-817a-647561fe5f1f: This server is Raft leader for term 4. Latest log index is 10.
+2017-03-30T16:01:50.228531000 1993.892679s notice: Server got SIGINT from pid 35619, uid 501; shutting down...
+2017-03-30T16:01:50.228701000 1993.892848s notice: Shutting down client connections...
+2017-03-30T16:01:50.229054000 1993.893201s notice: All client connections closed.
+2017-03-30T16:01:50.229058000 1993.893205s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-03-30T16:01:50.240791000 1993.904939s notice: Storage engine shut down.
+2017-04-03T10:33:14.484027000 0.480087s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T10:33:14.495954000 0.492010s notice: Running on Darwin 15.6.0 x86_64
+2017-04-03T10:33:14.496000000 0.492055s notice: Loading data from directory /Users/williamhilton/development/blockchain-authentication/rethinkdb_data
+2017-04-03T10:33:14.518190000 0.514246s info: Automatically using cache size of 100 MB
+2017-04-03T10:33:14.518202000 0.514257s warn: Cache size does not leave much memory for server and query overhead (available memory: 940 MB).
+2017-04-03T10:33:14.518209000 0.514264s warn: Cache size is very low and may impact performance.
+2017-04-03T10:33:14.520875000 0.516931s notice: Listening for intracluster connections on port 29015
+2017-04-03T10:33:14.548015000 0.544070s notice: Listening for client driver connections on port 28015
+2017-04-03T10:33:14.548117000 0.544173s notice: Listening for administrative HTTP connections on port 8080
+2017-04-03T10:33:14.548129000 0.544184s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-04-03T10:33:14.548131000 0.544186s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-04-03T10:33:14.548132000 0.544187s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-04-03T10:33:14.548134000 0.544189s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T10:33:14.548136000 0.544191s notice: Server ready, "Williams_MacBook_Pro_2_local_0y2" 26c9a83e-4d39-403e-bd05-9e307248f96e
+2017-04-03T10:33:15.646188000 1.642243s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: Starting a new Raft election for term 5.
+2017-04-03T10:33:15.657593000 1.653648s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: This server is Raft leader for term 5. Latest log index is 12.
+2017-04-03T10:33:16.010194000 2.006250s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Starting a new Raft election for term 5.
+2017-04-03T10:33:16.019440000 2.015496s info: Table 769f4982-0733-437e-817a-647561fe5f1f: This server is Raft leader for term 5. Latest log index is 13.
+2017-04-03T10:34:47.581839000 93.575444s notice: Server got SIGINT from pid 41036, uid 501; shutting down...
+2017-04-03T10:34:47.582058000 93.575662s notice: Shutting down client connections...
+2017-04-03T10:34:47.582207000 93.575812s notice: All client connections closed.
+2017-04-03T10:34:47.582212000 93.575816s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-03T10:34:47.591257000 93.584861s notice: Storage engine shut down.
+2017-04-03T10:35:26.384380000 0.329844s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-04-03T10:35:26.394649000 0.340110s notice: Running on Darwin 15.6.0 x86_64
+2017-04-03T10:35:26.394696000 0.340155s notice: Loading data from directory /Users/williamhilton/development/blockchain-authentication/rethinkdb_data
+2017-04-03T10:35:26.416532000 0.361991s info: Automatically using cache size of 100 MB
+2017-04-03T10:35:26.416542000 0.362001s warn: Cache size does not leave much memory for server and query overhead (available memory: 914 MB).
+2017-04-03T10:35:26.416549000 0.362008s warn: Cache size is very low and may impact performance.
+2017-04-03T10:35:26.418207000 0.363666s notice: Listening for intracluster connections on port 29015
+2017-04-03T10:35:26.453041000 0.398501s notice: Listening for client driver connections on port 28015
+2017-04-03T10:35:26.453337000 0.398797s notice: Listening for administrative HTTP connections on port 8080
+2017-04-03T10:35:26.453341000 0.398800s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-04-03T10:35:26.453342000 0.398801s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-04-03T10:35:26.453344000 0.398803s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-04-03T10:35:26.453346000 0.398805s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-03T10:35:26.453355000 0.398814s notice: Server ready, "Williams_MacBook_Pro_2_local_0y2" 26c9a83e-4d39-403e-bd05-9e307248f96e
+2017-04-03T10:35:28.120756000 2.066163s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: Starting a new Raft election for term 6.
+2017-04-03T10:35:28.131513000 2.076921s info: Table 71fcb200-ee59-486b-805d-228ecb34fbb3: This server is Raft leader for term 6. Latest log index is 15.
+2017-04-03T10:35:28.191676000 2.137083s info: Table 769f4982-0733-437e-817a-647561fe5f1f: Starting a new Raft election for term 6.
+2017-04-03T10:35:28.202064000 2.147471s info: Table 769f4982-0733-437e-817a-647561fe5f1f: This server is Raft leader for term 6. Latest log index is 16.
